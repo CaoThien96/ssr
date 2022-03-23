@@ -1,11 +1,14 @@
+import { DatePicker } from "antd";
 import * as React from "react";
 import { Routes, Route, Outlet, Link } from "react-router-dom";
+
+import 'antd/dist/antd.css'
 
 export default function App() {
   return (
     <div>
       <h1>Server Rendering Example</h1>
-
+    <DatePicker/>
       <p>
         If you check out the HTML source of this page, you'll notice that it
         already contains the HTML markup of the app that was sent from the
